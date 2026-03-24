@@ -499,7 +499,72 @@ footer {
 }
 
 .tech-title {
-    height: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 6px;
+    text-align: center;
+    height: auto;
+}
+
+.punchline-sub {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+    letter-spacing: 0px;
+}
+
+.about-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    color: #42446E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(to right, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 
