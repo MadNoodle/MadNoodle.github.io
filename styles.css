@@ -131,10 +131,48 @@ nav ul li a.active .nav-line {
 
 /* Social icons */
 
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .social-links {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: var(--slate);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+.lang-btn:hover {
+    color: var(--green);
+}
+
+.lang-btn.active {
+    color: var(--green);
+}
+
+.lang-sep {
+    color: var(--lightest-navy);
+    font-size: 12px;
 }
 
 .social-links a {
